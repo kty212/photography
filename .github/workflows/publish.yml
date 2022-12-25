@@ -27,13 +27,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Install dependencies  # GHA runs 18.04 which has old libvips
-        run: >
-          curl -L 'https://github.com/libvips/libvips/releases/download/v8.9.2/vips-8.9.2.tar.gz' | tar xzf - &&
-          cd vips-* &&
-          ./configure --prefix=/usr &&
-          make &&
-          sudo make install
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y libvips libvips-dev
 
       - name: Install Ruby dependencies
         run: bundle install
