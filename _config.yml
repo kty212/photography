@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://photos.grayvines.com/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: Julian
 instagram_username: julianberman
-mastodon_instance: mastodon.social
+mastodon_instance: "mastodon.social"
 mastodon_username: JulianWasTaken
 
 # Build settings
