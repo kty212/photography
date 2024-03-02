@@ -21,17 +21,17 @@
 title: Photography
 email: Julian+Photos@GrayVines.com
 author:
-  name: Julian Berman
-  email: Julian+Photos@GrayVines.com
-  website: https://photos.grayvines.com
+  name: Katy Yen
+  email: coffeenotesnyc@gmail.com
+  website: https://katyyen.com
 description: >- # this means to ignore newlines until "baseurl:"
-  @Julian trying to satisfy his photography hobby. Wanderlust included.
+  photos
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://photos.grayvines.com/" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: Julian
-instagram_username: julianberman
-mastodon_instance: "mastodon.social"
-mastodon_username: JulianWasTaken
+url: "https://katyyen.com/" # the base hostname & protocol for your site, e.g. http://example.com
+# github_username: Julian
+# instagram_username: julianberman
+# mastodon_instance: "mastodon.social"
+# mastodon_username: JulianWasTaken
 
 # Build settings
 plugins:
